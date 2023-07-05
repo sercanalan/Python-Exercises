@@ -19,3 +19,13 @@ cumle="a bcd e f"
 
 9.İterasyon: Harf-> "f", boslukSayisi=3
 """
+
+sentence = input("Cümle: ")
+
+space = 0
+
+for c in sentence:
+    if c == " ":
+        space += 1
+
+print("Boşluk Sayısı: ",space)
